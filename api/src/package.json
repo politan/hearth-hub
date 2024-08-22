@@ -1,0 +1,19 @@
+{
+  "name": "hearth-hub",
+  "version": "1.0.0",
+  "description": "HearthHub is the ultimate all-in-one family management app designed to streamline your daily routines, keep everyone connected, and ensure nothing falls through the cracks. From coordinating schedules to managing chores, shopping lists, and even family budgets, HearthHub keeps your household running smoothly.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hearth-hub"
+  },
+  "author": "Jakub 'politan' Politański",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "type": "module"
+}
