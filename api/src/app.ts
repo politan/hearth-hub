@@ -24,6 +24,7 @@ const opts: RouteShorthandOptions = {
 }
 
 server.get('/ping', opts, async (request, reply) => {
+  reply.code(200);
   return { pong: 'it worked!' }
 })
 
@@ -39,5 +40,7 @@ const start = async () => {
     process.exit(1)
   }
 }
+
+console.log('test');
 
 start()
