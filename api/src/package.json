@@ -4,6 +4,7 @@
   "description": "HearthHub is the ultimate all-in-one family management app designed to streamline your daily routines, keep everyone connected, and ensure nothing falls through the cracks. From coordinating schedules to managing chores, shopping lists, and even family budgets, HearthHub keeps your household running smoothly.",
   "main": "app.js",
   "scripts": {
+    "start": "ts-node app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +14,13 @@
   "author": "Jakub 'politan' Politański",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^4.28.1"
+    "@types/node": "^22.5.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "ts-node": "^10.9.2"
   },
-  "type": "module"
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }
